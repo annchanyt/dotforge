@@ -121,6 +121,9 @@ a:visited, a:focus{
     padding: 15px 0;
     height: 60px;
 }
+.apply{
+    padding:0;
+}
 span#apply-msg{
     vertical-align: middle;
     margin-right: 15px;
@@ -148,10 +151,18 @@ span#apply-msg{
   background-position: 0 -15px;
 }
 @media only screen and (min-width: 320px) and (max-width: 667px){
+    .apply{
+        padding:0;
+        text-align: left;
+    }
     span#apply-msg{
         font-size: 12px;
-        margin-right: 12px;
+        margin-right: 10px;
     }
+    .btn-danger{
+        padding: 4px 8px;
+    }
+
 }
 
 /* Nav bar
