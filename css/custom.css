@@ -670,12 +670,6 @@ h4.media-heading span{
 
 /* vacancies.html 
 =========================================== */
-<<<<<<< HEAD
-#vacancies p a{
-    color: #F96630;
-}
-=======
->>>>>>> master
 #vacancies a.btn-vacancies{
     background-color: #131312;
     border: #131312;
@@ -685,7 +679,6 @@ h4.media-heading span{
 #vacancies a.btn-vacancies:hover{
     background-color: #242423;
 }
-<<<<<<< HEAD
 #vacancies h4{
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -693,6 +686,4 @@ h4.media-heading span{
     margin-bottom: 20px;
     color: #515151;
 }
-=======
->>>>>>> master
 
