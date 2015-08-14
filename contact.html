@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Dotforge - Impact</title>
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- custom style -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <!-- header message =========================================== -->
+    <header class="header clearfix">        
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 hidden-xs">
+            <a href="."><img src="images/Dotforge-Logo.png" alt="Dotforge" height="40" /></a>
+          </div>
+          <div class="col-xs-12 col-sm-8 text-right">          
+            <span id="apply-msg">Next cohort starts September 2015</span><a class="btn btn-danger" href="https://www.f6s.com/dfimpact/">Apply now</a>
+          </div>
+        </div>
+      </div>    
+    </header>
+    <!-- nav bar =========================================== -->
+    <nav class="navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="row">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a href="." class="navbar-brand hidden-sm hidden-md hidden-lg"><img src="images/logo-white.png" height="35" alt="Dotforge" /></a>     
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>          
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="impact.html">Social<span>Impact</span></a></li>
+              <li><a href="healthcare.html">Healthcare</a></li>
+              <li><a href="commercial.html">Cohorts</a></li>
+              <li><a href="companies.html">Startups</a></li>
+              <li><a href="people.html">People</a></li>      
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>  
+      </div>
+    </nav>
+    <!-- Content =========================================== -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-11">
+          <div class="row">
+            <div class="col-xs-12 col-md-11">
+              <div class="top-head-content">
+                <h1>Contacting Us</h1>
+                <p>&nbsp;</p>
+                <h3><em>By Email</em></h3>
+                <p>You can email us directly at <u>hello@dotforgeacclerator.com</u> or <a href="mailto:hello@dotforgeacclerator.com">by clicking here</a>.</p>                
+              </div>
+              <div class="row mid-content">
+                <div class="col-xs-12 col-md-10">
+                  <h3><em>Getting Here</em></h3>
+                  <p >
+                    We are located in the Electric Works, Sheffield. This is just across the road from Sheffield train station, and is <a href="#">an easy 2 hour train commute to London</a>, or a less than <a href="#">1 hour commute to Manchester</a>
+                  </p>
+                </div>
+              </div>
+            </div><!--/.col -->
+          </div><!-- /.row -->    
+
+          <div class="row mid-content">
+            <div class="col-xs-12 col-md-4">
+              <div class="well" style="min-height:280px;border-radius:0;">
+                <address>
+                  <p><strong>
+                    DotForge<br/>
+                Electric Works<br/>
+                Sheffield Digital Campus<br/>
+                Sheffield S1 2BJ<br/>
+                South Yorkshire
+                  </strong></p>
+                  <a target="_blank" title="See the link to Google Map" href="https://www.google.com/maps/place/Electric+Works+Serviced+Offices/@53.37984,-1.462887,18z/data=!4m7!1m4!3m3!1s0x4879829d31731921:0xe72db40bb50140f5!2sElectric+Works+Serviced+Offices!3b1!3m1!1s0x4879829d31731921:0xe72db40bb50140f5?hl=en-UK">
+                    See the link to Google Map
+                  </a>
+                </address>
+              </div>
+            </div><!--/.col -->
+            <div class="col-xs-12 col-md-8">
+              <div class="full default" style="margin:0 -25px">
+              <style>
+                #map_canvas {
+                  width: 100%;
+                  height: 280px;
+                }
+              </style>
+              <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+              <script>
+              // Standard google maps function
+              function initialize() {
+                  var myLatlng = new google.maps.LatLng(53.379929,-1.462710);
+                  var myOptions = {
+                      zoom: 17,
+                      center: myLatlng,
+                      mapTypeId: google.maps.MapTypeId.ROADMAP,
+                      disableDefaultUI: true
+                  }
+                  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+                  var styles = [
+            {
+              stylers: [
+                
+              ]
+            },{
+              featureType: "road",
+              elementType: "geometry",
+              stylers: [
+                { visibility: "simplified" }
+              ]
+            }
+          ];
+
+          map.setOptions({styles: styles});
+                  MiinusMarker();
+              }
+              // Function for adding a marker to the page.
+              function addMarker(location) {
+                  marker = new google.maps.Marker({
+                      position: location,
+                      map: map,
+                      //icon: "http://www.dotforgeaccelerator.com/wp-content/themes/miinus/library/images/map-marker.png"
+                  });
+              }
+              // Testing the addMarker function
+              function MiinusMarker() {
+                     userLocation = new google.maps.LatLng(53.379929,-1.462710);
+                     addMarker(userLocation);
+              }
+                google.maps.event.addDomListener(window, 'load', initialize);
+              </script>
+              <div class="google-map">
+                <div id="map_canvas"></div>
+              </div>
+            </div><!--/.full-default-->
+          </div><!--/.col -->
+        </div><!--/.row .mid-content-->
+      </div><!--/.col-->
+    </div><!--/.row-->
+  </div><!--/.container-->  
+
+
+    <!-- footer =========================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-logo hidden-xs col-sm-2 col-md-2">
+            <a href="."><img src="images/logo-white.png" height="50" alt="Dotforge" /></a>  
+          </div>
+          <!-- about list -->
+          <div class="col-xs-4 col-sm-2 col-md-2">
+            <ul class="list-unstyled">
+              <li class="footer-heading">About</li>
+              <li><a href="people.html">People</a></li>
+              <li><a href="companies.html">Startups</a></li>
+              <li><a href="people.html">Mentors</a></li>
+              <li><a href="vacancies.html">Vacancies</a></li>
+            </ul>
+          </div>
+          <!-- support list -->
+          <div class="col-xs-4 col-sm-2 col-md-2"> 
+            <ul class="list-unstyled">
+              <li class="footer-heading">Support</li>
+              <li><a href="#about">The Curriculum</a></li>  
+              <li><a href="#about">Articles</a></li>
+              <li><a href="#about">FAQ</a></li>
+              <li><a href="contact.html">Contact Us</a></li>        
+            </ul>
+          </div>
+          <!-- partners list -->
+          <div class="col-xs-4 col-sm-6 col-md-6">
+            <ul class="list-unstyled">
+              <li class="footer-heading">Partners</li>
+            </ul>
+          </div>
+          <!-- footer bottom for xs device -->
+          <hr class="col-xs-12 hidden-sm hidden-md hidden-lg">
+          <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+            <a href="."><img src="images/logo-white.png" height="35" alt="Dotforge" /></a>  
+          </div>
+        </div><!--/row -->
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

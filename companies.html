@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DotForge</title>
+
+    <!-- Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,900,300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,700,900,700italic,900italic' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- custom style -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/select2.min.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <!-- header message =========================================== -->
+    <header class="header clearfix">        
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 hidden-xs">
+            <a href="."><img src="images/Dotforge-Logo.png" alt="Dotforge" height="40" /></a>
+          </div>
+          <div class="col-xs-12 col-sm-8 text-right">          
+            <span id="apply-msg">Next cohort starts September 2015</span><a class="btn btn-danger" href="https://www.f6s.com/dfimpact/">Apply now</a>
+          </div>
+        </div>
+      </div>    
+    </header>
+    <!-- nav bar =========================================== -->
+    <nav class="navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="row">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a href="." class="navbar-brand hidden-sm hidden-md hidden-lg"><img src="images/logo-white.png" height="35" alt="Dotforge" /></a>     
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>          
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="navbar-collapse collapse" id="navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="impact.html">Social<span>Impact</span></a></li>
+              <li><a href="healthcare.html">Healthcare</a></li>
+              <li><a href="commercial.html">Cohorts</a></li>
+              <li><a href="companies.html">Startups</a></li>
+              <li><a href="people.html">People</a></li>      
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>  
+      </div>
+    </nav>
+    <!-- banner =========================================== -->
+    <div class="title container-fluid" id="companies-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+            <h1>Our Companies</h1>
+            <h2>We consider Dotforge to be an ever-growing family of founders, companies big and small in the UK, and of various domains, helping our new companies and teams to build a product that people will love.</h2>    
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="container">
+      <!-- intro -->
+      <div class="row">
+        <div class="ol-xs-12 col-md-8 col-md-offset-2">
+          <div class="intro">
+            <p>We consider Dotforge to be an ever-growing family of founders, companies big and small in the UK, and of domains various, helping our new companies and teams to build a product that people will love. That’s a lot of people not listed on this page, making this happen. But here you will find the key personalities driving this forward. You can also find <a href="#">a list of mentors</a> that support our mission and that you can connect with through us. But above all, we think that it is <a href="#">our family of founders</a> and <a href="#">senior associate companies</a>, who have been themselves through the similar journey of taking an idea from shipped product, and thereupon to market, that are the most valuable help for our new early stage founders.</p>
+          </div>
+        </div>
+      </div>
+      <!-- search box -->
+      <div class="row">
+        <div class="search-box col-xs-12 col-sm-8 col-sm-offset-2">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <label>Search our companies by genre:</label>
+            </div>
+            <div class="col-xs-12 col-sm-8">  
+              <select class="tag-select2" multiple="multiple">
+                <option>Recuitment</option>
+                <option>Media</option>
+                <option>Payments</option>
+              </select>
+            </div>
+          </div>    
+        </div>
+      </div>
+      <!-- companies -->      
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <!-- Sprint '15 companies-->
+          <div class="default-media">
+            <h3>Dotforge Impact 1 - Spring '15</h3>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Mobile-Power-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Mobile Power: Building a Grid Without Wires</h4>
+                <p>Now deployed in the Gambia, Mobile Power is a cleantech startup that intends to replace diesel-powered generators with smart rechargeable batteries as a way of life, in developing countries. The batteries are designed to recharge by solar power, and are tracked using cellular technology. Mobile Power’s distribution network comprises of existing village shops, and they work with microfinance institutions on the ground to finance each local rollout in towns and villages.</p>
+                <p class="tags">Genre:<span>Cleantech</span><span>Energy</span></p>
+              </div>
+            </div>  
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Delivrd-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Delivrd: Uber for Food</h4>
+                <p>Founded by tech entrepreneur Paul Rawlings (ex-CEO of Screach, now exited), Deliverd delivers healthy lunches to your desk. They use existing commercial and social kitchens to manufacture their on-demand lunches, with a highly sophisticated technical backend which connects kitchens, delivery agents, and customers for a prompt lunchtime service. It is now live in Sheffield and its kitchens include the Cathedral Archer project, a homeless shelter which has a professional kitchen trained to produce quality food.</p>
+                <p class="tags">Genre:<span>Food</span><span>On-Demand Marketplace</span><span>Logistics</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/OnShowcase-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">OnShowcase: Buffer for Schools</h4>
+                <p>Schools are adapting the way they communicate with parents and guardians. Many are now using online resources such as blogs and social media, but these are time consuming activities and difficult to maintain. onShowcase is a platform where every staff member in the school can snap photos of school life, in the “send and forget” mind-set, with the reassurance that their photo won’t be accessible publicly until it has been reviewed by a senior team member. onShowcase empowers the staff with freedom and creativity, whilst also ensuring the school is compliant with all privacy policies when the photos are pushed out to other online resources, such as social media.</p>
+                <p class="tags">Genre:<span>EdTech</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Care-Selector-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">Care Selector: Moneysupermarket for Care</h4>
+                <p>The need for elderly care is a large and growing market in the UK. Nevertheless it is difficult to compare across the market and find the best care home for your needs. Furthermore, there is no provider that streamlines the registration of the patient to the care home. Care Selec- tor aims to make this whole process easier: from find- ing the right care home for your needs, to booking and registering. The first rollout has been throughout Bristol where they have signed up 13% of all care homes and serviced 60 enquiries of which 15% have already placed an individual in a home.</p>
+                <p class="tags">Genre:<span>Geriatric</span><span>E-Commerce</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Cover-Video-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">CoverVideo: Video Recruitment Platform</h4>
+                <p>CoverVideo enables employers to recruit through the medium of video. This adds another dimension to the candidate’s application, and in situations where writing is a problem (such as a candidate suffering from dyslexia), video recruitment gives the opportunity for the candidate’s skills and personality to shine through. This is particularly helpful for sales and customer-facing roles.</p>
+                <p class="tags">Genre:<span>Recruitment</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Learner-Lane-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">Learner Lane: Match.com for Tutoring</h4>
+                <p>LearnerLane is an intelligent marketplace that matches the best tutor to the student or child. Through a short questionnaire, students and parents can tailor their ask, while the platform provides a booking, contracting and payments process, making it simpler for students and parents to manage their relationship with tutors. The team is currently working with Sheffield Futures, which operates the largest network of support for schools and young people in Sheffield, testing the proposition and engagement with parents and teachers.</p>
+                <p class="tags">Genre:<span>EdTech</span><span>E-Commerce</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Open-Cinema-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">Open Cinema: AirBnB for Cinema</h4>
+                <p>Open Cinema allows any community space—an office, a care home, a pub—to become a fully licensed cinema and sell its own tickets. With 10 venues across the UK up and running, this company aims to disrupt film ex- hibition through enabling very local film communities to manage themselves and the movies they next watch together. Open Cinema was originally launched in a homeless shelter in Soho square to bring its members together through sharing the experience of watching a movie.</p>
+                <p class="tags">Genre:<span>Media</span><span>Sharing Economy</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Stroke-Care-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">StrokeCare: Telehealth for Stroke Patients</h4>
+                <p>Stroke usually affects the mobility of the patient. This makes it hard for the patient and often their carers to seek professional support or receive consistent medical help. StrokeCare is creating a solution which includes local support networks, rehabilitation information and video content and a telehealth platform to connect stroke patients with professionals through video chat- ting.</p>
+                <p class="tags">Genre:<span>Health</span></p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Pepvend-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">PepVend: Smart Vending Machines</h4>
+                <p>PepVend is creating smart vending machines built on a cloud infrastructure to improve the logistical challenge of replenishing and servicing office based vending. The target market of the product is large and small office spaces. The company is revenue generating with good penetration with office spaces and businesses in the Sheffield area.</p>
+                <p class="tags">Genre:<span>Logistics</span><span>Internet of Things</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Polen-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">Polen: Giving through Affiliate Marketing</h4>
+                <p>Polen enables users to donate to charities through perform- ing affiliate actions, such as watching an advertiser’s video, or signing up to a product. It is a new way for brands to demonstrate their wider social responsibility, while building relationships with their customers and directly supporting charities and causes.</p>
+                <p class="tags">Genre:<span>EdTech</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Chummunity-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">Chummunity: The Marketplace for Writers</h4>
+                <p>Chummunity unites writers with people who have a story to tell, creating a physical book that becomes a legacy or memento. The process of talking and being able to tell one’s story can be curative for some. This has potential application in mental health and care for the terminally ill.</p>
+                <p class="tags">Genre:<span>E-Commerce</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/PiP-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+            <div class="media-body">
+                <h4 class="media-heading">PiP (Pay-in-Person): Make Online Purchases with Offline Payments</h4>
+                <p>Featuring experienced payments veteran, Richard Beaton, on its team, PiP is a payment method for users to make cash payments for online purchases. The company has contracted with the UK and Irish post offices as payment points, and is midway through discussions with established e-commerce payment platforms to be an additional payment option made available to customers at the point of purchase.</p>
+                <p class="tags">Genre:<span>Payments</span>
+              </div>
+            </div>
+          </div><!--/.default-media -->
+          <hr>
+          <!-- Sprint '14 companies-->
+          <div class="default-media">
+            <h3>Dotforge Alumni 2 - Spring '14</h3>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Logsit-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Logsit</h4>
+                <p>Logsit is an app that records any unscheduled, recurring events. This includes a huge subset of human behaviour, from taking medication to going for a run to watching a film. Using the app is simple: you add the actions you want to keep track of and swipe to check-in each time you do them. Logsit automatically stamps the time and location and users can add a note and photo if they like.</p>
+                <p class="tags">Genre:<span>Utility</span></p>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/GreyHolder.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">HIVE</h4>
+                <p>Online collaboration has become too complicated. Constantly switching between different applications is frustrating and distracting. We want HIVE to be the go to instant collaboration tool for designers and developers. HIVE’s philosophy is to be seamless, almost invisible – essentially allowing designers/developers to share files, annotate documents and communicate with each other with just one click.</p>
+                <p class="tags">Genre:<span>Project Management</span>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Coacher-Logo.jpg" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Coacher</h4>
+                <p>Coacher is a web and mobile app that enables football coaches to develop better players and win more matches. With our innovative data capturing capabilities, powerful statistics and in depth practice planning, coaches can now take their coaching one step further.</p>
+                <p class="tags">Genre:<span>Sports</span></p>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Hashtrack-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Hashtrack</h4>
+                <p>Agencies and brands currently have no way to determine both the effectiveness and ROI of current hashtag conversations, they are merely taking a stab in the dark. Posts with hashtags get on average 2x as much engagement as those without. 2x more engagement means 2x more reach and potentially 2x as many customers. Hashtrack provides in depth and actionable insights relating to the conversation around a specific hashtag over the social media landscape.</p>
+                <p class="tags">Genre:<span>Media</span><span>Data Analysis</span></p>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Mihaibao-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Mihaibao</h4>
+                <p>Mihaibao is the 1st Western gateway made for China, offering the simplest Western luxury shopping service. Customers shop at many stores with one basket, shipping and invoice. Shop in Chinese, pay with Alipay and save up to 56% on Mihaibao.</p>
+                <p class="tags">Genre:<span>Ecommerce</span><span>Fashion</span></p>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Solayo-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Solayo</h4>
+                <p>The service legally aggregates prominent music and video websites (without the breach of copyright laws or terms and conditions) such as YouTube, SoundCloud and Dailymotion making it feasible and easier for users to access and manage all their contents within the same vicinity, thus preventing them from having too many tabs on their browsers and making for a seamless and uninterrupted listening session.</p>
+                <p class="tags">Genre:<span>Music</span></p>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Orderick-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Orderick</h4>
+                <p>Orderick is creating software for mobile phones and smart watches. They are currently in the process of patenting some of their IP and have been advised not to participate in demo day.</p>
+                <p class="tags">Genre:<span>To Be Confirmed</span></p>
+              </div>
+            </div>
+
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/GreyHolder.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Linc</h4>
+                <p>Linc makes it easier to manage buildings. Whether a single house, a manufacturing facility, or a portfolio of commercial real estate - Linc helps you accurately allocate energy and water consumption to individual occupants and appliances. It reduces your operational costs and your impact on the environment.</p>
+                <p class="tags">Genre:<span>Property</span><span>Cleantech</span></p>
+              </div>
+            </div>
+          </div><!--/.default-media -->  
+          <hr>
+          <!-- Sprint '13 companies-->
+          <div class="default-media">
+            <h3>Dotforge Alumni 1 - Spring '13</h3>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Delver-Logo.jpg" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Delver</h4>
+                <p>The platform for natural language interfaces. Down in the depths of your organisation, you have a treasure-trove of valuable data. But how hard is it for your users to retrieve it? Salvage your data with a natural language interface - ask your app English questions, get clear answers and reports back.</p>
+                <p class="tags">Genre:<span>Data Analysis</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Flowify-Logo.jpg" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Sofia</h4>
+                <p>Sofia works with operators to improve customer service by acting as a personal assistant to front of house teams, helping them keep track of all the service points during a customer’s journey.</p>
+                <p class="tags">Genre:<span>Events</span><span>Media</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px; " src="images/logos/GigOwl-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">GigOwl</h4>
+                <p>GigOwl is a community booking service that provides matchmaking between independent musicians and the promoters or owners of pubs, music venues, studios or any space capable of supporting a crowd of up 200 attendees.</p>
+                <p class="tags">Genre:<span>Ecommerce</span><span>Music</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/GreyHolder.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Scholarly</h4>
+                <p>Our mission at Scholarly is to give everyone the power to write better, faster. We plan to do this by developing software for computer-assisted authoring of documents, bringing Natural Language Technology to market to provide automated proofreading and assistance when crafting text documents.</p>
+                <p class="tags">Genre:<span>Natural Language</span><span>Academia</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Carmatchin-Logo.jpg" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">CarMatchin</h4>
+                <p>CarMatchin helps consumers start their car buying experience, removing the barriers to entering the new car market, such as industry jargon, poor showroom experiences at dealerships and a lack of trust in car sales industry professionals. The platform captures lifestyle needs exactly the same way consumers describe them, recommends suitable cars and supports the user onto the next stage of the car buying journey by setting up and booking test drives with local dealers.</p>
+                <p class="tags">Genre:<span>Ecommerce</span></p>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img alt="84x84" data-src="holder.js/84x84" class="media-object" style="width: 84px;  " src="images/logos/Twile-Logo.png" data-holder-rendered="true">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Twile</h4>
+                <p>Twile is planning to disrupt the online family history market - which is worth $2bn globally - by making it more exciting and engaging for the wider family, especially the younger generation. Twile allows family historians to import their family trees and automatically create a rich, visual timelines of their ancestry made up of milestones, photos and videos, which their family can explore and contribute to. While online services like Ancestry allow family historians to research their ancestry and store their findings, they offer little to help them share this with their wider family in an engaging way.</p>
+                <p class="tags">Genre:<span>Media</span><span>Family</span></p>
+              </div>
+            </div>
+          </div><!--/.default-media -->  
+        </div><!-- /.col -->
+      </div><!-- /.row-->
+    </div><!-- /.container-->
+    <!-- footer =========================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-logo hidden-xs col-sm-2 col-md-2">
+            <a href="."><img src="images/logo-white.png" height="50" alt="Dotforge" /></a>  
+          </div>
+          <!-- about list -->
+          <div class="col-xs-4 col-sm-2 col-md-2">
+            <ul class="list-unstyled">
+              <li class="footer-heading">About</li>
+              <li><a href="people.html">People</a></li>
+              <li><a href="companies.html">Startups</a></li>
+              <li><a href="people.html">Mentors</a></li>
+              <li><a href="vacancies.html">Vacancies</a></li>
+            </ul>
+          </div>
+          <!-- support list -->
+          <div class="col-xs-4 col-sm-2 col-md-2"> 
+            <ul class="list-unstyled">
+              <li class="footer-heading">Support</li>
+              <li><a href="#about">The Curriculum</a></li>  
+              <li><a href="#about">Articles</a></li>
+              <li><a href="#about">FAQ</a></li>
+              <li><a href="contact.html">Contact Us</a></li>        
+            </ul>
+          </div>
+          <!-- partners list -->
+          <div class="col-xs-4 col-sm-6 col-md-6">
+            <ul class="list-unstyled">
+              <li class="footer-heading">Partners</li>
+            </ul>
+          </div>
+          <!-- footer bottom for xs device -->
+          <hr class="col-xs-12 hidden-sm hidden-md hidden-lg">
+          <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+            <a href="."><img src="images/logo-white.png" height="35" alt="Dotforge" /></a>  
+          </div>
+        </div><!--/row -->
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
