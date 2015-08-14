@@ -150,7 +150,7 @@ span#apply-msg{
   box-shadow: none;
   background-position: 0 -15px;
 }
-@media only screen and (min-width: 320px) and (max-width: 667px){
+@media only screen and (max-width: 667px){
     .apply{
         padding:0;
         text-align: left;
