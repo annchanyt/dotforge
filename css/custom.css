@@ -42,13 +42,8 @@ h1{
 }
 h2{
     font-weight: 300;
-<<<<<<< HEAD
-    font-size: 18px;
-    line-height: 1.6em;
-=======
     font-size: 16px;
     line-height: 1.5em;
->>>>>>> master
     margin-top: 0;
     margin-bottom: 30px;
     color: #848484;
@@ -190,7 +185,8 @@ span#apply-msg{
         margin-right: 10px;
     }
     .btn-danger{
-        padding: 4px 8px;
+        font-size: 10px;
+        padding: 4px 5px;
     }
 
 }
