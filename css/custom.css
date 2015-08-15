@@ -178,7 +178,7 @@ span#apply-msg{
 @media only screen and (max-width: 667px){
     .apply{
         padding:0;
-        text-align: left;
+        text-align: center;
     }
     span#apply-msg{
         font-size: 12px;
