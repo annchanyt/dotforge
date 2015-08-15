@@ -117,7 +117,7 @@ cite{
     }
     p{
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 1.5;
     }
 }
 /* Basic elements
@@ -168,8 +168,8 @@ span#apply-msg{
     padding: 4px 12px;
 }
 .btn-danger:hover, .btn-danger:focus {
-  background-color: #37a56b;
-  border: 1px solid #37a56b;
+  background-color: #ce3b06;
+  border: 1px solid #ce3b06;
   color: #FFFFFF;
   text-shadow: none;
   box-shadow: none;
@@ -324,15 +324,8 @@ li.footer-heading{
     text-decoration: none;
 }
 
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 667px){
 
-    .footer > .container ul{width:50%;}
-    .footer > .container ul li a{font-size:10px; }
-}
-@media only screen 
-  and (min-width: 768px){
+@media only screen and (min-width: 768px){
     .footer-logo{
         margin-top: 37px;
     }
