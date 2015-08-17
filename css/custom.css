@@ -236,6 +236,7 @@ span#apply-msg{
     text-shadow:none;
 }
 #choose-accelerator{
+    text-align: left;
     text-transform: inherit;
     font-size: 12px;
     color: #fa8b62;
