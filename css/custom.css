@@ -279,7 +279,7 @@ span#apply-msg{
 @media only screen and (min-width: 768px) {
         #choose-accelerator{
             padding: 7px;
-            margin-right: 20px;
+            margin-right: 5px;
             border-top: none;
             box-shadow: none;
         }
