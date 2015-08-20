@@ -324,7 +324,22 @@ li.footer-heading{
     color: #fff;
     text-decoration: none;
 }
-
+i{
+    color: #fff;
+    padding:8px;
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-twitter-square{
+    color: #55acee;
+}
+.footer-bottom{
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: 1px #101010 solid;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}
 @media only screen and (min-width: 768px){
     .footer-logo{
         margin-top: 37px;
