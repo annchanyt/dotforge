@@ -324,15 +324,23 @@ li.footer-heading{
     color: #fff;
     text-decoration: none;
 }
-i{
-    color: #fff;
-    padding:8px;
+.fa{
+    margin:0px 8px;
+}
+.fa:hover{
+    text-decoration: none;
 }
 .fa-facebook-square{
     color: #3b5998;
 }
+.fa-facebook-square:hover{
+    color: #324b80;
+}
 .fa-twitter-square{
     color: #55acee;
+}
+.fa-twitter-square:hover{
+    color: #178ee8;
 }
 .footer-bottom{
     padding-top: 20px;
@@ -449,6 +457,9 @@ i{
 .title{
     margin: 20px 0;
 }
+.impact-brand{
+    color: #3BB273;
+}
 #impact #choose-accelerator{
     color: #7ed4a7;
 }
@@ -456,7 +467,12 @@ i{
 .btn-lg{
     font-size: 16px;
     padding: 8px 25px;
+    margin-top: 20px;
     margin-bottom: 20px;
+}
+.btn-fullwidth{
+    width:60%;
+    font-size: 18px;
 }
 .btn-impact{
     background-color: #3BB273;
@@ -560,6 +576,9 @@ hr.impact-hr{
 }
 /* healthcare.html 
 =========================================== */
+.health-brand{
+    color:#f02319;
+}
 #health #choose-accelerator{
     color: #f67f79;
 }
