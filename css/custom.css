@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
 }
-html{
-    min-height: 100%;
+html, body{
+    margin: 0;
+    padding:0;
+    height: 100%;
     position: relative;
 }
 .clearfix:after {
@@ -122,8 +124,12 @@ cite{
 }
 /* Basic elements
 =========================================== */
-body > .container {
-    padding: 130px 20px;
+/*.wrapper {
+    min-height:100%;
+    position:relative;
+}*/
+.content{
+    padding: 130px 20px 130px 20px; /*to make space for the main content*/
 }
 hr{
     border-width: 3px;
@@ -298,12 +304,13 @@ span#apply-msg{
 
 /* Footer
 =========================================== */
-.footer {
+footer {
     background-color: #252422;
-    position: relative;
-    bottom: 0;
     width: 100%;
-    padding: 30px 0;
+    padding: 20px 0;
+    position:relative;
+    bottom:0;
+    left:0;
 }
 li.footer-heading{
     text-transform: uppercase;
@@ -313,14 +320,14 @@ li.footer-heading{
     color: #fff;
     margin-bottom: 10px;
 }
-.footer .container ul li{
+footer .container ul li{
     padding: 2px 0;
 }
-.footer > .container ul li a{
+footer > .container ul li a{
     color: #afafaf;
     font-size: 12px;
 }
-.footer > .container ul li a:hover{
+footer > .container ul li a:hover{
     color: #fff;
     text-decoration: none;
 }
@@ -709,4 +716,8 @@ h4.media-heading span{
     margin-bottom: 20px;
     color: #515151;
 }
-
+/* about.html 
+=========================================== */
+.dotforge-brand{
+    color: #F96630;
+}
