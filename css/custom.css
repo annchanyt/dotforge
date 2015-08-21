@@ -82,6 +82,7 @@ a:hover{
     color: #f84e0f;
 }
 blockquote{
+    text-align: left;
     font-family: 'PT serif', serif;    
     border-left: none;
     font-style: italic;
