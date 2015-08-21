@@ -530,7 +530,7 @@ hr.impact-hr{
 }
 .more{
     display: none;
-    background-color: #fff;
+    background: #fbfafa;
     border-top: 2px solid #3BB273;
     border-bottom: 2px solid #3BB273;
     padding: 24px;
