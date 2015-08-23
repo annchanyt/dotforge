@@ -321,6 +321,7 @@ footer .container ul li{
 footer > .container ul li a{
     color: #afafaf;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 footer > .container ul li a:hover{
     color: #fff;
@@ -412,7 +413,7 @@ footer > .container ul li a:hover{
 }
 .orange-bg blockquote{
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
     padding: 0;
 }
