@@ -80,7 +80,8 @@ blockquote{
     font-weight: 600;
     color: #515151; 
     font-size: 24px;
-    margin: 15px 0; 
+    padding: 15px 20px 10px 20px;
+    margin:0;
 }
 cite{
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; ; 
