@@ -488,9 +488,6 @@ footer > .container ul li a:hover{
 
 /* impact.html 
 =========================================== */
-.title{
-    margin: 20px 0;
-}
 .impact-brand{
     color: #3BB273;
 }
@@ -627,6 +624,9 @@ hr.impact-hr{
 }
 .health-hr{
     border-color: #f02319;
+}
+#health h5{
+    color: #f02319;
 }
 /* commercial.html 
 =========================================== */
