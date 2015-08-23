@@ -385,13 +385,13 @@ footer > .container ul li a:hover{
     overflow: hidden;
 }
 .black-bg h3{
-    font-size: 44px;
-    font-weight: 300;
+    font-size: 48px;
+    font-weight: 200;
     color: #fff;
     margin:0 0 10px;
 }
 .black-bg p{
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     line-height: 1.5;
     margin-bottom: 0;
@@ -412,12 +412,12 @@ footer > .container ul li a:hover{
 }
 .orange-bg blockquote{
     color: #fff;
+    font-weight: 400;
     text-align: left;
     padding: 0;
 }
 .orange-bg cite{
     color: #fff;
-    font-style: italic;
 }
 .orange-bg ul {
     list-style-type: none;
