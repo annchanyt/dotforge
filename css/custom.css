@@ -502,14 +502,18 @@ hr.impact-hr{
 .article{
     margin-bottom: 30px;
 }
-#impact .article a{
-    color: #3BB273;
+#impact h4{
     font-weight: 600;
 }
-#impact .article a:visited{
+#impact .title a, #impact .article a{
+    color: #3BB273;
+    font-weight: 600;
+    font-size: 18px;
+}
+#impact .title a:visited, #impact .article a:visited{
     text-decoration: none;
 }
-#impact .article a:hover, #impact .article a:active{
+#impact .title a:hover, #impact .article a:active{
     color: #37a56b;
     text-decoration: none;
 }
@@ -523,13 +527,10 @@ hr.impact-hr{
     font-weight: 400;
 }
 #impact .article a.learn-more{
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1px;
-/*    border: solid 1px;
-    border-radius: 30px;*/
     padding: 5px 15px;
 }
 .glyphicon-menu-down{
