@@ -48,7 +48,6 @@ h4{
     color: #515151;
 }
 h5{
-    font-family: 'Source Sans Pro';
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 14px;
@@ -386,17 +385,15 @@ footer > .container ul li a:hover{
     overflow: hidden;
 }
 .black-bg h3{
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 300;
     color: #fff;
     margin:0 0 10px;
 }
 .black-bg p{
-    font-family: 'Lato';
-    font-weight: 300;
     font-size: 16px;
     color: #fff;
-    line-height: 24px;
+    line-height: 1.5;
     margin-bottom: 0;
 }
 .orange-bg{
@@ -413,11 +410,14 @@ footer > .container ul li a:hover{
     bottom: 40px;
     left: 0;
 }
-.orange-bg h6{
-    text-transform: uppercase;  
-    margin-bottom: 10px;
-    letter-spacing: 1.5px;  
-    word-spacing: 3px;  
+.orange-bg blockquote{
+    color: #fff;
+    text-align: left;
+    padding: 0;
+}
+.orange-bg cite{
+    color: #fff;
+    font-style: italic;
 }
 .orange-bg ul {
     list-style-type: none;
@@ -704,13 +704,6 @@ h4.media-heading span{
 }
 #vacancies a.btn-vacancies:hover{
     background-color: #242423;
-}
-#vacancies h4{
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #515151;
 }
 /* about.html 
 =========================================== */
