@@ -432,13 +432,15 @@ footer > .container ul li a:hover{
 .orange-bg blockquote{
     color: #fff;
     font-weight: 300;
+    line-height: 1.35;
     text-align: left;
     padding: 0;
+    margin-bottom: 10px;
 }
 .orange-bg cite{
     color: #fff;
 }
-.orange-bg ul {
+/*.orange-bg ul {
     list-style-type: none;
     margin: 0 0 10px 0;
     padding: 0;
@@ -449,7 +451,7 @@ footer > .container ul li a:hover{
 .orange-bg a{
     color: #fff;
     font-weight: 400;
-}
+}*/
 
 @media only screen and (min-width: 320px) and (max-width: 667px){
 
@@ -457,12 +459,12 @@ footer > .container ul li a:hover{
     .jumbotron-banner .text-container .col-xs-12{padding:0;height: auto!important;}
     .black-bg{width: 100%;margin:0;}
     .black-bg .inner h3{
-        font-size: 15px;
+        font-size: 20px;
         letter-spacing: 1px;
     }
     .black-bg .inner p{
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 14px;
+        line-height: 1.5;
     }
     .black-bg .inner{
         max-height: 220px;
@@ -471,6 +473,13 @@ footer > .container ul li a:hover{
     .orange-bg{
         position:static;
         width:100%;
+    }
+    .orange-bg blockquote{
+    font-size: 16px
+    }
+    .orange-bg cite{
+        font-size: 14px;
+        color: #fff;
     }
 }
 
