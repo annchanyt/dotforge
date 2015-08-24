@@ -135,7 +135,12 @@ a:visited, a:focus{
     width: 100%;
     height: auto;
 }
-
+:target:before {
+  content:"";
+  display:block;
+  height: 92px; /* fixed header height*/
+  margin:-92px 0 0; /* negative fixed header height */
+}
 
 /* Header Message
 =========================================== */
@@ -741,6 +746,7 @@ h4.media-heading span{
 #vacancies a.btn-vacancies:hover{
     background-color: #242423;
 }
+
 /* about.html 
 =========================================== */
 .dotforge-brand{
