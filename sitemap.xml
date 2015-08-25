@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.dotforge.com/</loc>
+    <loc>http://www.dotforgeaccelerator.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/about.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/about.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/companies.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/companies.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/contact.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/contact.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/healthcare.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/healthcare.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/impact.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/impact.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/people.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/people.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.dotforge.com/vacancies.html</loc>
+    <loc>http://www.dotforgeaccelerator.com/vacancies.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
