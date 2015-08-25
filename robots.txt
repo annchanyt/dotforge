@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /old-bkp/
+Disallow: /articles/
+Disallow: /test/
+Disallow: /commercial.html
