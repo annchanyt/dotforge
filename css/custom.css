@@ -38,14 +38,15 @@ h2{
     color: #000;
 }
 h3{
-    font-weight: 400;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 h4{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 20px;
-    color: #515151;
+    color: #000;
 }
 h5{
     font-weight: 700;
@@ -104,6 +105,9 @@ cite{
     margin-top: 0;
     margin-bottom: 30px;
 }
+    h3{
+        font-size: 24px;
+    }
     h4{
         font-size: 24px;
     }
@@ -412,7 +416,7 @@ footer > .container ul li a:hover{
     max-height: 250px;
     overflow: hidden;
 }
-.black-bg h3{
+.black-bg h1{
     font-size: 48px;
     font-weight: 200;
     color: #fff;
@@ -468,7 +472,7 @@ footer > .container ul li a:hover{
     .jumbotron-banner .text-container{ position: static;}
     .jumbotron-banner .text-container .col-xs-12{padding:0;height: auto!important;}
     .black-bg{width: 100%;margin:0;}
-    .black-bg .inner h3{
+    .black-bg .inner h1{
         font-weight: 400;
         font-size: 20px;
         letter-spacing: 1px;
@@ -529,9 +533,6 @@ hr.impact-hr{
 /* article */
 .article{
     margin-bottom: 30px;
-}
-#impact h4{
-    font-weight: 600;
 }
 #impact .title a, #impact .article a{
     color: #3BB273;
@@ -657,7 +658,7 @@ hr.impact-hr{
 
 /* people.html 
 =========================================== */
-.default-media h5{
+.default-media h4{
     margin-bottom: 50px;
 }
 .media{
@@ -669,12 +670,12 @@ hr.impact-hr{
 .media-body{
     width: 100%;
 }
-h4.media-heading{
+h5.media-heading{
     font-size: 18px;
     font-weight: 600;
 	
 }
-h4.media-heading span{
+h5.media-heading span{
     font-size: 11px;
     font-weight: 400;
 }
@@ -682,17 +683,17 @@ h4.media-heading span{
 	padding-right: 30px;
 }
 @media only screen and (min-width: 992px){
-    h4.media-heading{
+    h5.media-heading{
         font-size: 20px;
         margin-bottom: 12px;
     }
-    h4.media-heading span{
+    h5.media-heading span{
         font-size: 14px;
         margin-left: 12px;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 667px){
-    .default-media h5{
+    .default-media h4{
         margin-bottom: 30px;
     }
     .media-left{
