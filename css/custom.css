@@ -49,11 +49,10 @@ h4{
     color: #000;
 }
 h5{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
     margin-bottom: 14px;
     color: #6a6a6a;
-    /*color: #F96630;*/
 }
 h6{
     font-size: 13px;
@@ -97,14 +96,14 @@ cite{
     font-weight: 400;
     font-size: 72px;
     margin: 0 0 28px 0;
-}
+    }   
     h2{
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6em;
     margin-top: 0;
     margin-bottom: 30px;
-}
+    }
     h3{
         font-size: 24px;
     }
@@ -112,7 +111,7 @@ cite{
         font-size: 24px;
     }
     h5{
-        font-size: 18px;
+        font-size: 20px;
     }
     p{
         font-size: 18px;
@@ -526,7 +525,7 @@ footer > .container ul li a:hover{
     background-color: #339863;
     border: #339863;
 }
-hr.impact-hr{
+.impact-hr{
     border-color:#3BB273;
     margin-bottom: 50px;
 }
@@ -635,9 +634,6 @@ hr.impact-hr{
 .health-hr{
     border-color: #f02319;
 }
-#health h5{
-    color: #f02319;
-}
 /* commercial.html 
 =========================================== */
 #alumni #choose-accelerator{
@@ -670,26 +666,12 @@ hr.impact-hr{
 .media-body{
     width: 100%;
 }
-h5.media-heading{
-    font-size: 18px;
-    font-weight: 600;
-	
-}
-h5.media-heading span{
-    font-size: 11px;
-    font-weight: 400;
-}
 .media-left, .media>.pull-left{
 	padding-right: 30px;
 }
 @media only screen and (min-width: 992px){
-    h5.media-heading{
-        font-size: 20px;
-        margin-bottom: 12px;
-    }
-    h5.media-heading span{
-        font-size: 14px;
-        margin-left: 12px;
+    .media-heading{
+        margin-bottom: 10px;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 667px){
@@ -707,7 +689,7 @@ h5.media-heading span{
         display: block;
     }
     .media-heading{
-        margin-top: 15px;   
+        margin: 12px 0;   
     }
 }
 /* companies.html 
