@@ -93,7 +93,13 @@ $(document).ready(function(){
 });
 
 	$( window ).resize(function() {
-		$(".jumbotron-banner").css("min-height" , $(window).height() - $(".navbar-inverse").height()) ;
+        // sticky footer
+        var footerHeight = $('footer').outerHeight();
+        var stickFooterPush = $('.push').height(footerHeight);  
+        $('.content').css({'marginBottom':'-' + footerHeight + 'px'});
+
+		// jumbotron-banner resize
+        $(".jumbotron-banner").css("min-height" , $(window).height() - $(".navbar-inverse").height()) ;
 		$(".jumbotron-banner .text-container .col-md-5").height($(".jumbotron-banner .text-container .col-md-7").outerHeight()).css("position","relative");
 		
         var navheight = $(".navbar-inverse").height();
@@ -101,10 +107,11 @@ $(document).ready(function(){
         $(".jumbotron-banner").css("margin-top", navheight);
 
         if ($(window).width() < 667) {
-		setTimeout(function(){ 
-			$(".cb-slideshow").height($(".cb-slideshow").height());
-			$(".jumbotron-banner .text-container").css("padding-top", $(".cb-slideshow").height());
-		},300);
-	};
+    		setTimeout(function(){ 
+    			$(".cb-slideshow").height($(".cb-slideshow").height());
+    			$(".jumbotron-banner .text-container").css("padding-top", $(".cb-slideshow").height());
+    		},300);
+	   };
     });
+     $(window).resize();
 });

@@ -1,18 +1,45 @@
+/* Layout and Basic elements
+=========================================== */
 *{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
     box-sizing: border-box;
 }
 html, body{
     margin: 0;
     padding:0;
-    min-height: 100%;
+    height: 100%;
     position: relative;
 }
+/* required for sticky footer */
+.content{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    background: #fbfafa;
+    padding: 130px 20px; /*to make space for the main content*/
+}
+footer, .push{
+    clear: both;
+}
+/* end required for sticky footer */
+
 .clearfix:after {
     clear:both;
     content:"";
     display:block;
     visibility:hidden;
     position:relative;
+}
+.full-width{
+    width: 100%;
+    height: auto;
+}
+:target:before {
+  content:"";
+  display:block;
+  height: 92px; /* fixed header height*/
+  margin:-92px 0 0; /* negative fixed header height */
 }
 /* Typeface
 =========================================== */
@@ -65,15 +92,6 @@ p{
     font-size:  16px;
     color: #000;
 }
-a{
-    color: #F96630;
-}
-a:hover{
-    color: #f84e0f;
-}
-strong{
-    font-weight:600;
-}
 blockquote{
     text-align: center;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;    
@@ -91,6 +109,24 @@ cite{
     font-size: 18px;
     color: #888179;
 }
+strong{
+    font-weight:600;
+}
+a{
+    color: #F96630;
+}
+a:hover{
+    color: #f84e0f;
+}
+a:visited, a:focus{
+    text-decoration: none;
+}
+hr{
+    border-width: 3px;
+    border-color: #222;
+    margin-bottom: 50px;
+}
+
 @media only screen and (min-width: 992px){
     h1{
     font-weight: 400;
@@ -110,42 +146,10 @@ cite{
     h4{
         font-size: 24px;
     }
-    h5{
-        font-size: 20px;
-    }
     p{
         font-size: 18px;
         line-height: 1.5;
     }
-}
-/* Basic elements
-=========================================== */
-/*.wrapper {
-    min-height:100%;
-    position:relative;
-}*/
-.content{
-    background: #fbfafa;
-    padding: 130px 20px; /*to make space for the main content*/
-}
-hr{
-    border-width: 3px;
-    border-color: #222;
-    margin-bottom: 50px;
-}
-a:visited, a:focus{
-    text-decoration: none;
-}
-
-.full-width{
-    width: 100%;
-    height: auto;
-}
-:target:before {
-  content:"";
-  display:block;
-  height: 92px; /* fixed header height*/
-  margin:-92px 0 0; /* negative fixed header height */
 }
 
 /* Header Message
