@@ -93,10 +93,10 @@ $(document).ready(function(){
 });
 
 	$( window ).resize(function() {
-        // sticky footer
-        var footerHeight = $('footer').outerHeight();
-        var stickFooterPush = $('.push').height(footerHeight);  
-        $('.content').css({'marginBottom':'-' + footerHeight + 'px'});
+        // // sticky footer
+        // var footerHeight = $('footer').outerHeight();
+        // var stickFooterPush = $('.push').height(footerHeight);  
+        // $('.content').css({'marginBottom':'-' + footerHeight + 'px'});
 
 		// jumbotron-banner resize
         $(".jumbotron-banner").css("min-height" , $(window).height() - $(".navbar-inverse").height()) ;
@@ -113,5 +113,5 @@ $(document).ready(function(){
     		},300);
 	   };
     });
-     $(window).resize();
+     // $(window).resize();
 });
