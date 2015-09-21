@@ -783,24 +783,35 @@ footer > .container ul li a:hover{
     background-color: #4D9DE0;
     border: #4D9DE0;
 }
+.btn-open:hover, .btn-open:visited{
+    background-color: #237cc6;
+    border: #237cc6;
+}
 .open-event{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .open-event h5 {
     display: inline;
 }
+.open-event h5 small{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
 .open-event p{
     margin-bottom: 0;
 }
-
-
 .open-dp{
-    height: 64px;
-    width: 64px;
+    height: 56px;
+    width: 56px;
     vertical-align: top;
 }
-
-
+.talk-title{
+    font-weight: 600;
+}
+.open-hr{
+    color: #4D9DE0;
+}
 
 
 
