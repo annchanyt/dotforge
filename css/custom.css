@@ -12,7 +12,7 @@ html{
     background: #fbfafa;
 }
 .content{
-    padding: 130px 20px; /*to make space for the main content*/
+    padding: 140px 20px; /*to make space for the main content*/
     margin: 0;
 }
 /* required for sticky footer */
