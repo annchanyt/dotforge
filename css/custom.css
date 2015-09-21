@@ -297,10 +297,10 @@ span#apply-msg{
     background-color: #f02319;
     border-bottom: 4px solid #f02319;
 }
-/*#active-alumni, #active-alumni:hover{
+#active-open, #active-open:hover{
     background-color: #4d9de0;
     border-bottom: 4px solid #4D9de0;
-}*/
+}
 #nav-impact:hover{
     background-color: #3BB273;
     border-bottom: 4px solid #3BB273;
@@ -310,10 +310,10 @@ span#apply-msg{
     border-bottom: 4px solid #f02319;
 
 }
-/*#nav-alumni:hover{
+#nav-open:hover{
     background-color: #4D9DE0;
     border-bottom: 4px solid #4D9de0;
-}*/
+}
 @media only screen and (min-width: 320px) and (max-width: 667px){
     .navbar-nav > li > a{
         text-align: center;
@@ -332,9 +332,9 @@ span#apply-msg{
         #active-healthcare{
             background-color: #131312;
         }
-        /*#active-alumni{
+        #active-open{
             background-color: #131312;
-        }*/
+        }
 }
 
 
@@ -771,3 +771,37 @@ footer > .container ul li a:hover{
 .dotforge-brand{
     color: #F96630;
 }
+/* open.html 
+=========================================== */
+.open-brand{
+    color: #4D9DE0;
+}
+#open #choose-accelerator{
+    color: #4D9DE0;
+}
+.btn-open{
+    background-color: #4D9DE0;
+    border: #4D9DE0;
+}
+.open-event{
+    margin-bottom: 30px;
+}
+.open-event h5 {
+    display: inline;
+}
+.open-event p{
+    margin-bottom: 0;
+}
+
+
+.open-dp{
+    height: 64px;
+    width: 64px;
+    vertical-align: top;
+}
+
+
+
+
+
+
