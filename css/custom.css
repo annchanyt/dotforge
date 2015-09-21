@@ -1,20 +1,19 @@
 /* Layout and Basic elements
 =========================================== */
-*{
-    -moz-box-sizing: border-box;
+*,
+*:before,
+*:after{
     -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-html, body{
-    margin: 0;
-    padding:0;
-    position: relative;
-    min-height: 100%;
-/*    height: 100%;*/
+html{
+    height: 100%;
+    background: #fbfafa;
 }
 .content{
-    background: #fbfafa;
     padding: 130px 20px; /*to make space for the main content*/
+    margin: 0;
 }
 /* required for sticky footer */
 .wrapper{
@@ -26,7 +25,12 @@ html, body{
     clear: both;
 }
 /* end required for sticky footer */
-
+body{
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+    min-height: 100%;
+}
 .clearfix:after {
     clear:both;
     content:"";
@@ -340,9 +344,13 @@ footer {
     background-color: #252422;
     width: 100%;
     padding: 20px 0;
-    position:relative;
+    position: absolute;
     bottom:0;
     left:0;
+    right:0;
+}
+#homepage footer{
+    position: relative;
 }
 li.footer-heading{
     text-transform: uppercase;
@@ -396,6 +404,9 @@ footer > .container ul li a:hover{
 
 /* index.html
 =========================================== */
+#homepage{
+    padding-bottom: 0;
+}
 /* banner */
 .jumbotron-banner{
     position: relative;
@@ -588,14 +599,16 @@ footer > .container ul li a:hover{
 }
 .affix-top{
     width: 400px;
+    position: fixed!important;
 }
 .affix{
-    position: fixed;
+    position: fixed!important;
     width: 400px; 
     top: 120px;
 }
 .affix-bottom{
     width: 400px;
+    position: fixed!important;
 }
 /*
 .pull-right.affix blockquote, .pull-right.affix cite{
