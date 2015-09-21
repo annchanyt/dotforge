@@ -821,7 +821,16 @@ footer > .container ul li a:hover{
 .open-hr{
     border-color: #4D9DE0;
 }
-
-
+@media only screen and (max-width: 667px){
+    .open-event{
+        text-align: center;
+    }
+    .open-event-date p{
+        padding-bottom: 30px;
+    }
+    .open-event h5{
+        margin-bottom: 60px;
+    }
+}
 
 
