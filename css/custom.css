@@ -797,7 +797,7 @@ footer > .container ul li a:hover{
     display: inline;
 }
 .open-event h5 small{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #000;
 }
@@ -824,13 +824,29 @@ footer > .container ul li a:hover{
 @media only screen and (max-width: 667px){
     .open-event{
         text-align: center;
+        padding-bottom: 40px;
     }
-    .open-event-date p{
+    .open-event-date{
         padding-bottom: 30px;
     }
     .open-event h5{
         margin-bottom: 60px;
     }
+    .open-dp{
+        margin-bottom: 10px;
+    }
+    .speaker-name{
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    .speaker-title{
+        padding-bottom: 30px;
+        font-size: 12px;
+    }
+    .talk-title{
+       padding-bottom: 20px;
+    }
+
 }
 
 
