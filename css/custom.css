@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 h1{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 36px;
     margin: 0 0 8px 0;
 }
@@ -136,7 +136,7 @@ hr{
 
 @media only screen and (min-width: 992px){
     h1{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 72px;
     margin: 0 0 28px 0;
     }   
