@@ -654,6 +654,9 @@ footer > .container ul li a:hover{
 .health-hr{
     border-color: #f02319;
 }
+#health h3{
+    color: #f02319;
+} 
 /* commercial.html 
 =========================================== */
 #alumni #choose-accelerator{
