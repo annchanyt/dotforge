@@ -294,8 +294,8 @@ span#apply-msg{
 }
 
 #active-healthcare, #active-healthcare:hover{
-    background-color: #f02319;
-    border-bottom: 4px solid #f02319;
+    background-color: #F96630;
+    border-bottom: 4px solid #F96630;
 }
 #active-open, #active-open:hover{
     background-color: #4d9de0;
@@ -306,8 +306,8 @@ span#apply-msg{
     border-bottom: 4px solid #3BB273;
 }
 #nav-healthcare:hover{
-    background-color: #f02319;
-    border-bottom: 4px solid #f02319;
+    background-color: #F96630;
+    border-bottom: 4px solid #F96630;
 
 }
 #nav-open:hover{
@@ -638,24 +638,13 @@ footer > .container ul li a:hover{
 /* healthcare.html 
 =========================================== */
 .health-brand{
-    color:#f02319;
+    color:#F96630;
 }
 #health #choose-accelerator{
-    color: #f67f79;
-}
-.health-btn{
-    background-color: #f02319;
-    border: #f02319;
-}
-.health-btn:hover{
-    background-color: #d9180e;
-    border: #d9180e;
-}
-.health-hr{
-    border-color: #f02319;
+    color: #F96630;
 }
 #health h3{
-    color: #f02319;
+    color: #F96630;
 } 
 /* commercial.html 
 =========================================== */
