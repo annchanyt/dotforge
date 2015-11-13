@@ -28,8 +28,13 @@ html{
 body{
     position: relative;
     margin: 0;
-    padding-bottom: 4rem;
+    padding-bottom: 25rem;
     min-height: 100%;
+}
+@media only screen and (min-width: 992px){
+    body{
+        padding-bottom: 5rem;
+    }
 }
 .clearfix:after {
     clear:both;
@@ -653,7 +658,7 @@ footer > .container ul li a:hover{
     margin-bottom: 24px;
 }
 .partners-logo img{
-    height: 84px;
+    height: 54px;
 }
 .media-body i.fa{
     font-size: 18px;
@@ -662,6 +667,11 @@ footer > .container ul li a:hover{
 }
 .media{
     margin-bottom: 40px;
+}
+@media only screen and (min-width: 992px){
+    .partners-logo img{
+        height: 84px;
+    }
 }
 /* commercial.html 
 =========================================== */
