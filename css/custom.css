@@ -646,6 +646,19 @@ footer > .container ul li a:hover{
 #health h3{
     color: #F96630;
 } 
+.partners-logo{
+    margin-bottom: 24px;
+}
+.partners-logo img{
+    height: 84px;
+}
+.media-body i.fa{
+    font-size: 18px;
+    margin-right: 18px;
+}
+.media{
+    margin-bottom: 40px;
+}
 /* commercial.html 
 =========================================== */
 #alumni #choose-accelerator{
@@ -668,12 +681,6 @@ footer > .container ul li a:hover{
 =========================================== */
 .default-media h4{
     margin-bottom: 50px;
-}
-.media{
-    margin-bottom: 20px;
-}
-.media img{
-    background: #252422;
 }
 .media-body{
     width: 100%;
