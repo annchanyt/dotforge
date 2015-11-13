@@ -352,6 +352,9 @@ footer {
 #homepage footer{
     position: relative;
 }
+footer ul{
+    margin-bottom: 20px;
+}
 li.footer-heading{
     text-transform: uppercase;
     letter-spacing: 3px;
