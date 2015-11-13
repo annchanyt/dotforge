@@ -654,7 +654,8 @@ footer > .container ul li a:hover{
 }
 .media-body i.fa{
     font-size: 18px;
-    margin-right: 18px;
+    margin-left: 0;
+    margin-right: 24px;
 }
 .media{
     margin-bottom: 40px;
